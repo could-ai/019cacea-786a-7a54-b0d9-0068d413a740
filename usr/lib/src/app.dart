@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:couldai_user_app/src/theme/app_theme.dart';
 import 'package:couldai_user_app/src/features/home/presentation/home_screen.dart';
 import 'package:couldai_user_app/src/features/auth/presentation/login_screen.dart';
+import 'package:couldai_user_app/src/features/reference/presentation/conditions_screen.dart';
+import 'package:couldai_user_app/src/features/reference/presentation/condition_detail_screen.dart';
+import 'package:couldai_user_app/src/features/reference/presentation/comparison_screen.dart';
 
 class CouldAIApp extends StatelessWidget {
   const CouldAIApp({super.key});
@@ -18,6 +21,9 @@ class CouldAIApp extends StatelessWidget {
       routes: {
         '/': (context) => const HomeScreen(),
         '/login': (context) => const LoginScreen(),
+        '/conditions': (context) => const ConditionsScreen(),
+        '/condition-detail': (context) => const ConditionDetailScreen(),
+        '/compare': (context) => const ComparisonScreen(),
       },
     );
   }

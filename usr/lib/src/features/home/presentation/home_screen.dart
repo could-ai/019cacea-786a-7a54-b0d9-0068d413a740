@@ -43,7 +43,15 @@ class HomeScreen extends StatelessWidget {
             const SizedBox(height: 48),
             FilledButton.icon(
               onPressed: () {
-                // Placeholder for main action
+                Navigator.pushNamed(context, '/conditions');
+              },
+              icon: const Icon(Icons.medical_services_outlined),
+              label: const Text('Medical Reference & Comparison'),
+            ),
+            const SizedBox(height: 16),
+            OutlinedButton.icon(
+              onPressed: () {
+                // Placeholder for chat
               },
               icon: const Icon(Icons.chat_bubble_outline),
               label: const Text('Start Chatting'),
