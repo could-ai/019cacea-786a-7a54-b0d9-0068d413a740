@@ -1,16 +1,18 @@
-# couldai_user_app
+# CouldAI User App
 
-A new Flutter project.
+A powerful Flutter application powered by state-of-the-art AI models.
+
+## Features
+
+- **Multi-Model AI Support**: Access to Gemini, GPT-4, Claude, and more.
+- **Cross-Platform**: Runs on iOS, Android, Web, Windows, macOS, and Linux.
+- **Secure**: Built with security and privacy in mind.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To run the app:
+```bash
+flutter run
+```
